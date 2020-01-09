@@ -14,7 +14,7 @@ public class Intro extends BasicGameState {
     private Image img;
 
     public void init(GameContainer gc, StateBasedGame sbg) throws SlickException {
-        img = new Image("images/startscreen.png");
+        img = new Image("Images/startscreen.png");
     }
 
     public void update(GameContainer gc, StateBasedGame sbg, int i) throws SlickException {
